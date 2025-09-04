@@ -1,7 +1,7 @@
 # config.yaml
 
-max_results: 100 # max number of results shown
-past_days: 20 # number of days to check from today
+max_results: 50 # max number of results shown
+past_days: 30 # number of days to check from today
 # past_days: 36525 # to search all the arxiv (for old papers or when arxiv_sortorder is ascending)
 literal: true # literal search of keywords
 run_scirate: false # fetch scirates?
@@ -32,8 +32,8 @@ and_or_keywords: "+OR+"
 
 keys:
     # if you do not want to specify some keys, leave the list empty []
-    sections: [math.NA, cs.LG, cs.CC, cs.CG, quant-ph]
-    keyauthors: [coles, babbush, cirac]
+    sections: [quant-ph]
+    keyauthors: [prosen, babbush, cirac]
     keywords: [nisq, adiabatic]
 
 # additional keys: vqa, encoding
